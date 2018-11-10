@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>Boomchat installation guide</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+	<div id="content">
+		<div class="section bottom_separator">
+			<img src="../css/images/logo/default.png"/>
+			<h1>Boomchat installation guide</h1>
+			<p>
+			First of all thank you to have choose Boomchat. Boomchat contain a build in installer that should be fast and easy.Simply follow these steps and in few minutes you
+			will have a new chat for you and your friends.
+			</p>
+		</div>
+		<div class="section bottom_separator top_separator">
+			<h2>Upload Boomchat files</h2>
+			<p>
+			The first thing you have to do is to upload Boomchat files to your server you can upload files to root or subfolder.
+			</p>
+		</div>
+		<div class="section bottom_separator top_separator">
+			<h2>Installer welcome box</h2>
+			<p>
+			Once you have uploaded Boomchat files on your server it is very simple to install it. If you have install Boomchat in root of
+			your server simply open your browser then type in the adress of your chat host <span class="note"> ex : http://www.boomchat.com/</span> if you
+			decided to use a subfolder for your Boomchat simply go to <span class="note"> ex : http://www.boomchat.com/subfoldername/</span> 
+			if the chat is not already installed it will bring you automaticly to the installer and you should see a window like this if not refer to the <a href="#manual_installation">manual			
+			installation process</a>...If you are ready to start the installation process click the <span class="note">yes i am</span> button
+			</p>
+			<img class="images" src="images/install_step1.jpg"/>
+		</div>
+		<div class="section bottom_separator top_separator">
+			<h2>Checking permissions (<span class="note">optional</span>)</h2>
+			<p>
+			On second step if file & permission for the chat to operate correctly are not set proprely you will be prompt to adjust some <span class="note">CHMD</span>
+			on files and folders. Once all files and folders permissions are set proprely please click on <span class="note">Continue</span> button.<br />
+			please note that this window only apear if you have to adjust permission if all permission are correct you will never see that window and be automaticly sent to
+			step 3 of installation process.
+			</p>
+			<img class="images" src="images/install_step2.jpg"/>
+		</div>
+		<div class="section bottom_separator top_separator">
+			<h2>Connecting to your database</h2>
+			<p>
+			Step 3 is the most important step of installation process this step will install all component of Boomchat to your database. You have to fill up all information 
+			relative to your database correctly to allow Boomchat installer to create and imports tables and data to your Database.Once all field are correctly filled up click on
+			<span class="note">Install components</span> button.<br /><br />
+			<span class="note">• Database host</span> = In most case the host of your database will be localhost if not refer to your hosting provider to know host<br />
+			<span class="note">• Database username</span> = The username used to connect to your database note: username must have full access to database<br />
+			<span class="note">• Database password</span> = The password you have created to connect to your database<br />
+			<span class="note">• Database name</span> = the name of database you have created and want Boomchat to be installed in<br />
+			</p>
+			<img class="images" src="images/install_step3.jpg"/>
+		</div>
+		<div class="section bottom_separator top_separator">
+			<h2>Finally creating your super admin account</h2>
+			<p>
+			Once all component have been installed successfully to your database your will be promp to create your <span class="note">Super admin</span> account you must fill up
+			all field then click <span class="note">Create account</span> button.<br /><br />
+			<span class="note">• Username</span> = The username you want to uses as Super admin must be under 16 caracters and contain only A-Z 0-9 caracters<br />
+			<span class="note">• Email</span> = your email adress note: email provided must be a valid email adress format<br />
+			<span class="note">• Password</span> = The password you want to use for your account<br />
+			<span class="note">• Confirm password</span> = Repeat the password you want to use for your account<br />
+			</p>
+			<img class="images" src="images/install_step4.jpg"/>
+			<p><span class="note">IMPORTANT NOTE</span> : for more security i strongly suggest once installation is completed to put back CHMD previlege to 644 of </span class="note">database.php</span> located in system/database.php</p>
+			<p>
+			Congratulation your have successfully installed Boomchat to your server . Now page will reload then bring you to login page where you can log in with your new 
+			Super admin account information. Enjoy<br /><br />
+			<span class="note">NOTE: visit the setting panel to set up chat for your need</span>
+			</p>
+		</div>
+		<div class="section top_separator">
+			<a name="manual_installation"></a>
+			<h1>Manual installation</h1>
+			<p>
+			If it happen that Boomchat installer do not want to work for you you still can install Boomchat manually by following these easy steps<br /><br />
+			<span class="note">• Step 1</span> = Upload Boomchat files to your server files can be uploaded in root or subfolder<br />
+			<span class="note">• Step 2</span> = Import Database content to your phpmyadmin Database ( database file included )<br />
+			<span class="note">• Step 3</span> = Set CHMD previlege to 755 to <span class="note">avatar</span> folder, <span class="note">upload</span> folder and <span class="note">database.php</span> file
+			located in system folder.<span class="note">IMPORTANT NOTE</span> after installation for security purpose you will need to set back to 644 the CHMD previlege of <span class="note">database.php</span> file to prevent other people of accessing it.<br />
+			<span class="note">• Step 4</span> = Edit the <span class="note">database.php</span> located in system folder ... follow instruction in comments<br />
+			<span class="note">• Step 5</span> = In browser open your chat then register new account... Note: first account to be registered on manual installation is automaticly set to super Admin<br />
+			<span class="note">• Step 6</span> = Enjoy !
+			</p>
+			
+		</div>
+	</div>
+</body>
+</html>

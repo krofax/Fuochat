@@ -1,0 +1,28 @@
+.load_option {
+	float:left;
+	margin-right:7px;
+}
+#wrap_options {
+	max-width:164px;
+	height:auto;
+	z-index:1000;
+	display:none;
+	padding:2px 5px;
+}
+#wrap_options img {
+	display:block;
+	float:left;
+	width:35px;
+	height:35px;
+}
+.addon_options {
+	margin:3px;
+}
+#addon_container {
+	padding:5px 0;
+}
+#option_title {
+	padding:3px 0;
+	height:17px;
+	font-size:12px;
+}
