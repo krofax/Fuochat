@@ -6,6 +6,7 @@
 -- Generation Time: Dec 13, 2016 at 04:58 PM
 -- Server version: 5.6.17
 -- PHP Version: 5.5.12
+-- Author: Blessing Krofegha
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -245,7 +246,7 @@ CREATE TABLE IF NOT EXISTS `setting` (
   `private_style` int(1) NOT NULL DEFAULT '1',
   `welcome_login_title` varchar(40) NOT NULL DEFAULT 'Chat news',
   `timezone` varchar(60) NOT NULL DEFAULT 'America/Montreal',
-  `welcome_login` varchar(300) NOT NULL DEFAULT 'Welcome to Boomchat you can change this message in your setting panel.',
+  `welcome_login` varchar(300) NOT NULL DEFAULT 'Welcome to FuoChat you can change this message in your setting panel.',
   `welcome_chat` varchar(500) NOT NULL DEFAULT 'Welcome new member please be respectfull with other users and keep conversation clean enjoy your chat.',
   `min_age` int(2) NOT NULL DEFAULT '14',
   `full_width` int(1) NOT NULL DEFAULT '0',
