@@ -77,7 +77,7 @@
 												$oldmask = umask(0);
 												mkdir("upload/" . $dirname, 0777);
 												umask($oldmask); 
-											}
+									 		}
 											echo 1;
 										}
 										else {
