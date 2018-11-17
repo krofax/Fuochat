@@ -4,7 +4,7 @@
 	<p>max 16 caracters a-z 0-9</p>
 	<input id="user_name"></input>
 	<h3>Email</h3>
-	<p>enter a valid email for your account</p>
+	<p>enter a valid email for your account</p> 
 	<input id="user_email"></input>
 </div>
 <div class="half_table_right table_zone">
