@@ -53,7 +53,7 @@
 		<div class="clear"></div>
 	</div>
 	<a name="part1"></a>
-	<h2>List of commands available with Boomchat</h2>
+	<h2>List of commands available with Fuochat</h2>
 	<div class="section top_separator">
 		<p>Note : Higher rank can use commands of lower rank.
 			<h2 class="setting_title">User & VIP commands level 1-2</h2>
@@ -111,7 +111,7 @@
 					<tr><td class="title">/gsound</td><td class="description">Send a sound notification to all members<br /><span class="note">Syntax : /gsound</span></td></tr>
 					<tr><td class="title">/install</td><td class="description">This command is used when installing a addon to chat<br /><span class="note">Syntax : /install addons_name</span></td></tr>
 					<tr><td class="title">/update</td><td class="description">This command will be used in release after 
-						Boomchat 4.0 to update the chat.<br /><span class="note">Syntax : /update</span></td></tr>
+						<br /><span class="note">Syntax : /update</span></td></tr>
 					<tr><td class="title">/silent</td><td class="description">
 						Put the chat in silent mode can be turned on or off by 
 						using<br /><span class="note">Syntax : /silent on/off</span></td></tr>
@@ -164,7 +164,7 @@
 	<h2>Friends list</h2>
 	<div class="section top_separator">
 		<h3>Adding a friend</h3>
-		<p>In Boomchat you can now add users to your friends list in 3 different ways 1- 
+		<p>In fuo chat you can now add users to your friends list in 3 different ways 1- 
 		Click on a username in the user list, then select option add to friend 2- 
 		Type the /friend command in chat followed by username you desire to add to your friends list 3- 
 		Click on add friends icon located on top of the private window.</p>
@@ -183,20 +183,20 @@
 	<h2>Addons</h2>
 	<div class="section top_separator">
 		<h3>Where you can find addons</h3>
-		<p>Addons is a brand new feature in <span class="note">Boomchat 4.0. You can add 
-		different addons to your current Boomchat site. To learn more about addons 
+		<p>Addons is a brand new feature in <span class="note">Fuochat You can add 
+		different addons to your current Fuochatsite. To learn more about addons 
 		please visit us at our live demo.</p>
-		<h3>Adding addons to Boomchat</h3>
-		<p>Adding addons to Boomchat is very easy. All you have to do is put the addon inside the addons folder 
+		<h3>Adding addons to Fuochat</h3>
+		<p>Adding addons to Fuochat is very easy. All you have to do is put the addon inside the addons folder 
 		on your server, then go into your chat room and type <span class="note">/install addons_name</span> 
-		.Boomchat will then check if that addons exists and will then install it for 
+		.Fuochat will then check if that addons exists and will then install it for 
 		you to your current chat. <span class="note">Important note:</span> When adding addons 
 		its important to put your chat on maintenance mode to stop any PHP 
 		errors.</p>
 		<h3>Removing a addons</h3>
 		<p>Removing an addons from your chat is almost the same process as installing it. 
 		All you have to do is simply type <span class="note">/uninstall addons_name</span> in your main chat window. After uninstalling addons 
-		we strongly suggest you to remove the specific addon folder from the addons directory of boomchat. Important note: When adding addons 
+		we strongly suggest you to remove the specific addon folder from the addons directory of Fuochat Important note: When adding addons 
 		its important to put your chat on maintenance mode again to stop any PHP 
 		errors.</p>
 	</div>
@@ -214,7 +214,7 @@
 	<a name="part5"></a>
 	<h2>Avatar system</h2>
 	<div class="section top_separator">
-		<p>Boomchat comes with a built in avatar system that allow user to set their own avatars. You can set the maximum size of allowed avatar, by going in 
+		<p>Fuochat comes with a built in avatar system that allow user to set their own avatars. You can set the maximum size of allowed avatar, by going in 
 		your settings panel then selecting the maximum size from the select menu, 
 		after you have done this, press the update settings button. When updating
 		a new avatar to your account, the old avatar is automatically replaced by the new one.</p>
@@ -229,7 +229,7 @@
 	<a name="part40"></a>
 	<h2>Setting your chat speed</h2>
 	<div class="section top_separator">
-		<p>You can now set your chat speed in Boomchat 3.0 by selecting the desired speed in your setting panel. there are 4 different speeds 
+		<p>You can now set your chat speed in Fuochat by selecting the desired speed in your setting panel. there are 4 different speeds 
 		to choose from. slow, moderate, fast, maximum you can choose between these 4 different
 		setting to optimise the chat to your needs. All changes made to the 
 		speed will take effect on your next refresh to prevent server load.</p>
@@ -237,7 +237,7 @@
 	<a name="part49"></a>
 	<h2>Stream radio feature</h2>
 	<div class="section top_separator">
-		<p>Boomchat include a build in stream player that allow you to add internet stream music to your chat. This option is available from your admin panel you can activate it or not that is up to you</p>
+		<p>Fuochat include a build in stream player that allow you to add internet stream music to your chat. This option is available from your admin panel you can activate it or not that is up to you</p>
 	<h3>Music source</h3>
 	<p>In your setting panel in advance options you can set your Music source url this build in stream do not support pls url stream.</p>
 	<h3>Autoplay</h3>
@@ -277,7 +277,7 @@
 		<p>For viewing a users profile click on a username in userlist, then from the drop down menu click on 
 		the info profile panel, You can also click on the user avatar in the chat
 		that will also open the user profile <span class='note'>Added in 
-		Boomchat 2.2</span></p>
+		Fuochat</span></p>
 		<h3>Edit your profile</h3>
 		<p>To edit your profile, click on user profile icon, here you will be 
 		able to edit your information and select your own avatar. If you don't want to select an avatar you will be 
@@ -287,7 +287,7 @@
 	<h2>Invisibility mode for staff</h2>
 	<div class="section top_separator">
 		<h3>Hiding from chat users</h3>
-		<p>New in Boomchat 3.0 the invisibility which allows you to manage your chat without anybody know that you are online. You can set yourself to invisibility mode by using the  <span class='note'>/invisible</span> command in the chat,
+		<p>In Fuochat invisibility which allows you to manage your chat without anybody know that you are online. You can set yourself to invisibility mode by using the  <span class='note'>/invisible</span> command in the chat,
 		you will instantly disappear out of a room where you can continue your 
 		admin work.</p>
 		<h3>Removing invisibility</h3>
@@ -298,7 +298,7 @@
 	<h2>Room access</h2>
 	<div class="section top_separator">
 		<h3>Create a room access</h3>
-		<p>New in Boomchat 3.0. The room access allows you to create rooms and block users from accessing them . Example if you create a room in your setting panel with the rank staff only moderator and admins
+		<p>New in Fuochat The room access allows you to create rooms and block users from accessing them . Example if you create a room in your setting panel with the rank staff only moderator and admins
 		will be able to enter that room. there is 4 different setting that you can put for the room access . 
 		VIP , Staff, Admin, Public.</p>
 	</div>
@@ -306,9 +306,9 @@
 	<h2>Welcome message</h2>
 	<div class="section top_separator">
 		<h3>Turning on default welcome message</h3>
-		<p>Boomchat includes a feature that allows you to send a system message to all new registered members, you can turn that option on/off in your admin setting panel. You can edit your own welcome message by editing the text between ' ' in
+		<p>Fuochat includes a feature that allows you to send a system message to all new registered members, you can turn that option on/off in your admin setting panel. You can edit your own welcome message by editing the text between ' ' in
 		the <span class="note">system/language/language.php</span> file under the <span class="note">$welcome 
-		message</span> variable. Please note: be careful to never remove ' ' from the variable that may cause Boomchat to not work 
+		message</span> variable. Please note: be careful to never remove ' ' from the variable that may cause Fuochat to not work 
 		properly.</p>
 	</div>
 	
@@ -316,8 +316,8 @@
 	<h2>Ads feature</h2>
 	<div class="section top_separator">
 		<h3>Adding your own ads</h3>
-		<p>Boomchat includes an ads feature that allows you to show up to 5 
-		different banner or text ads on your chat. Boomchat ads support ads size of <span class="note">728px by 90px</span> only. You can edit premade ads by editing ads files located in <span class="note">ads</span>
+		<p>Fuochat includes an ads feature that allows you to show up to 5 
+		different banner or text ads on your chat. Fuochat ads support ads size of <span class="note">728px by 90px</span> only. You can edit premade ads by editing ads files located in <span class="note">ads</span>
 		folder. Please note that if you are using 1 ads only you need to edit ads1.php if you are using 2 ads you have to edit ads1.php and ads2.php for ads feature to work correctly. If you 
 		don't know how works affiliate ads please refer to someone that can help 
 		you about ads html structure or you can also come on Boomchat live demo 
