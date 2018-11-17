@@ -2,7 +2,7 @@
 	<div class="bottom_separator" id="header_login">
 	</div>
 	<div class="top_separator" id="content_kicked">
-		<div id="top_activation">
+		<div id="top_activation"> 
 			<h2><?php echo $activate_title; ?></h2>
 			<p><?php echo $activate_text; ?></p>
 		</div>
