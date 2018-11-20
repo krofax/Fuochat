@@ -41,7 +41,7 @@ if(isset($_POST['old_password']) && isset($_POST['new_password']) && isset($_POS
 	}
 }
 else{
-	// problem occur while submitting
+	// problem occur while submitting 
 	echo 5;
 }
 ?>
