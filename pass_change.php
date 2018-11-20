@@ -22,7 +22,7 @@ if(isset($_POST['old_password']) && isset($_POST['new_password']) && isset($_POS
 				}
 				else{
 					// pass too short
-					echo 6;
+					echo 6; 
 				}
 			}
 			else {
