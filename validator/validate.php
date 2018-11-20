@@ -24,7 +24,7 @@
 	}
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-<head>
+<head> 
 <title>Account validation</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="data/style.css" />
