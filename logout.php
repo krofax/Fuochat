@@ -11,7 +11,7 @@
 		setcookie("password","",time() - (1000 * 1000));
 		if ($user['user_access'] == 2){
 			$mysqli->query("UPDATE `users` SET `user_access` = '4', `user_status` = '3', `user_kick` = ''  WHERE `user_name` = '{$user["user_name"]}'");
-		}
+		} 
 		else {
 			if($user['user_status'] != 4){
 				$quit_chat = "$userlogout $left_chat";
