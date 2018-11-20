@@ -1,7 +1,5 @@
 <?php
-/////////// fuochat v 1.00 /////////////////
-// all right reserved to Blessing
-////////////////////////////////////////////
+
 	require_once("system/config.php");
 		
 		// check if password and username have been submitted
