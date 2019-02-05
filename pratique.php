@@ -7,7 +7,7 @@ $word = 'jean';
 		echo "match";
 	}
 	else {
-		echo 'not_match';
+		echo 'not_matched';
 	}
 
 
