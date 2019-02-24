@@ -1,6 +1,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
-<title>Boomchat updater 2.0</title>
+<title>Fuochats</title>
 <link rel="stylesheet" type="text/css" href="data/style.css" />
 <script type="text/javascript" src="data/jquery-1.9.0.min.js"></script>
 </head>
