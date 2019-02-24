@@ -25,7 +25,7 @@
 ?>
 <html>
 <head> 
-<title>Account validation</title>
+<title>Accounts validation</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="data/style.css" />
 <script type="text/javascript" src="../js/jquery-1.9.0.min.js"></script>
