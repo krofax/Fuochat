@@ -1,4 +1,4 @@
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<html>
 <head>
 <title>Fuochats</title>
 <link rel="stylesheet" type="text/css" href="data/style.css" />
