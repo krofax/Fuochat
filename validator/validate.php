@@ -44,7 +44,7 @@
 		}
 		else if ($val_result == 2){
 			echo "<h3>$val_already</h3>";
-			echo "<button id=\"chat_button\">$val_chat</button>";
+			echo "<button id=\"chat_button\"> $val_chat</button>";
 		}
 		else {
 			echo "<h3>$valid_error</h3>";
