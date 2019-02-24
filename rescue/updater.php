@@ -13,7 +13,7 @@
 	<div id="content_login" class="top_separator">
 		<div id="login_error"><div class="error" id="login_error_inside"></div></div>
 		<h3>Welcome to the updater</h3>
-		<h4>By pressing the button UPDATE you will allow Boomchat to update your database
+		<h4>By pressing the button UPDATE you will allow fuochat to update your database
 		please enter your super admin information to allow boomchat to connect and update
 		your database</h4>
 		<label>Username</label>
